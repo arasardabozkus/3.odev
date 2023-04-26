@@ -1,0 +1,4 @@
+.container {
+  inline-size: min(100% - calc(var(--min, 2rem) * 2), var(--container-max));
+  margin-inline: auto;
+}
